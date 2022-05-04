@@ -91,4 +91,6 @@ function playToFive() {
     }
 }
 
-playToFive();
+document.querySelector('body').onload = () => {
+    //playToFive();
+};
