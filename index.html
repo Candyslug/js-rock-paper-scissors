@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 </head>
+
 <body>
-    <script src="RPS.js"></script> 
+    <div class="container" id="main-title">
+        <div class="container" id="main-title-inner">
+            <p id="title-text">Rock Paper Scissors 🗿 📃 ✂️</p>
+        </div>
+    </div>
+    <div class="container" id="main-body">
+        <div class="container" id="main-body-inner">
+            <div class="container" id="buttons">
+                <div class="container" id="all-buttons">
+                    <div class="container btn-container" id="btn-1">
+                        <button id="btn-rock">
+                            Rock
+                        </button>
+                    </div>
+                    <div class="container btn-container" id="btn-2">
+                        <button id="btn-rock">
+                            Paper
+                        </button>
+
+                    </div>
+                    <div class="container btn-container" id="btn-3">
+                        <button id="btn-rock">
+                            Scissors
+                        </button>
+                    </div>
+                </div>
+                <div class="container" id="game-area">
+                    <div class="container" id="res-area">
+                        <button id="play-button">
+                            <p>Play</p>
+                        </button>
+                    </div>
+                    <div class="container" id="score-area">
+                        <p id="player-score-text">Player score: </p>
+                    </div>
+                    <div class="container" id="score-area">
+                        <p id="computer-score-text">Computer Score: </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="RPS.js"></script>
+    <div class="container" id="main-footer">
+        <p>
+            Made by Candyslug. In conjunction with The Odin Project
+        </p>
+    </div>
 </body>
+
 </html>

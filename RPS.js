@@ -88,9 +88,17 @@ function playToFive() {
             computerWins += 1;
         }
         console.log(`score: ${playerWins} - ${computerWins}`);
+
+        document.querySelector('#player-score-text').innerHTML = playerWins;
+        document.querySelector('#computer-score-text').innerHTML = computerWins;
     }
 }
 
-document.querySelector('body').onload = () => {
-    //playToFive();
+document.querySelector('#play-button').onclick = () => {
+
+    document.querySelector('#play-button').innerHTML = "Playing";
+    playToFive();
 };
+
+
+
